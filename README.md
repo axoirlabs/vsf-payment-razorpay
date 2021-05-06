@@ -9,7 +9,7 @@ Experience the Razorpay Payment demo [here](https://vue-storefront-demo.aureatel
 
 By hand (preferer):
 ```
-git clone https://github.com/aureatelabs/vsf-payment-razorpay.git ./vue-storefront/src/modules/payment-razorpay
+git clone https://github.com/axoirlabs/vsf-payment-razorpay.git ./vue-storefront/src/modules/payment-razorpay
 ```
 
 Add the following config to your `config/local.json` and configure the `razorpay.key` & `razorpay.keySecret` to point to your Razorpay credential details.
