@@ -14,7 +14,7 @@ export function beforeRegistration ({ Vue, config, store, isServer }) {
     'is_server_method': false
   }
 
-  store.dispatch('payment/addMethod', paymentMethodConfig)
+  store.dispatch('checkout/addPaymentMethod', paymentMethodConfig)
 
   if (!isServer) {
     let apiUrl = config.razorpay.api_url || 'https://checkout.razorpay.com/v1/checkout.js'
